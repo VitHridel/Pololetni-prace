@@ -1,0 +1,484 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+/* clearfix */
+.group:before,
+.group:after { content: " "; display: table; }
+.group:after { clear: both; }
+
+body {
+    margin: 0;
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main, .pre-footer, footer, header {
+    max-width: 80em;
+    background: #fff;
+    margin: 0 auto;
+}
+
+header {
+    background-image: linear-gradient(skyblue ,white);
+    font-family: 'Signika', sans-serif;
+    color: #407DF5;
+    border-bottom: 1px solid lightgray;
+}
+
+
+.container {
+    max-width: 64em;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+   margin: .67em 0; 
+}
+
+.navigation {
+    max-width: 50%;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.navigation ul {
+    width: 100%;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+li {
+    display: inline;   
+}
+
+a {
+    color: blue;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 1.35em;
+    color: #407DF5;
+    padding: .4em .6em;
+}
+
+.navigation .selected,
+.navigation a:hover, .navigation a:focus {
+    color: #fff;
+    background: #407DF5;
+    border-radius: .2777777777777778em;
+}
+
+.fas {
+    margin-right: .125em;
+}
+
+.home,
+.documents,
+.contact,
+.about
+ {
+    margin-bottom: 2em;
+}
+
+/*
+ *      INDEX-MENU
+ */
+
+.index_menu {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5em;
+}
+
+.index_menu ul {
+    display: inherit;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.index_menu li {
+    opacity: .75;
+    width: 24.5%;
+}
+
+#druzina {
+    background: #48a34b;
+}
+
+#druzina-nadpis {
+    color: #48a34b;
+}
+
+#askola {
+    background: #ff9800;
+}
+
+.index_menu li:hover,
+.index_menu li:focus {
+    opacity: .4;
+    transition: .5s;
+}
+
+.index_menu a {
+    color: #fff;
+    font-size: 2.25em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    width: 100%;
+}
+
+.menu-text {
+    display: block;
+    padding-top: .15em;
+    text-decoration: underline;
+}
+
+.index_menu i {
+    font-size: 2.5em;
+    opacity: .6;
+    padding-top: .3333em;
+    padding-bottom: .3333em;;
+    width: 100%;
+    margin-right: 0;
+}
+
+section {
+    margin-top: 1.2em;
+}
+
+p, li, a {
+    line-height: 1.4em;
+}
+
+/*
+ *      skola
+ */
+
+.covid {
+    background: #FFAAAA;
+    border: 2px solid #AA3939;
+    padding: 1em 1em 0 1em;
+    margin-bottom: 1.2em;
+}
+
+.covid-list {
+    padding-left: inherit;
+}
+
+.covid-list li {
+    display: list-item;
+}
+
+.school-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.school-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.school-info {
+    max-width: 60%;
+}
+
+.school-info img {
+    display: block;
+    margin-top: 1em;
+}
+
+.school-pics{
+    max-width: 40%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+ /*
+ *      druzina
+ */
+
+ .druzina-plan li,
+ .druzina-plat li {
+     display: block;
+ }
+
+ /*
+ *      jidelna
+ */
+
+#jidelna {
+    background: #ff5720;
+}
+
+#jidelna-nadpis {
+    color: #ff5720;
+}
+
+ /*
+ *      krouzky
+ */
+
+ #krouzky {
+    background: #009688;
+}
+
+#krouzky-nadpis {
+    color: #009688;
+}
+
+/*
+ *
+ *          Dokumenty
+ *              
+ */
+
+ .documents h3 {
+     color: gray;
+ }
+
+ .documents h4 {
+     color: lightslategray;
+ }
+
+ .documents a {
+     display: block;
+ }
+
+
+/*
+ *
+ *          Kontakty
+ *
+ */
+
+ .contact li {
+    display: block;
+ }
+
+ .persons-form-holder {
+     display: flex;
+     justify-content: space-between;
+ }
+
+ .udaje h3 {
+     color:  gray;
+ }
+
+ form {
+     max-width: 26.25em;
+ }
+
+ form * {
+     display: block;
+     margin-bottom: 1em;
+     border-radius: .5em;
+ }
+
+ textarea, input {
+    width: 100%;
+    padding: .5em .25em;
+    border: 1px solid gray;
+ }
+
+ textarea:focus, input:focus {
+    outline: none;
+ }
+
+ button {
+     padding: .5em .75em;
+     border: 1px solid gray;
+ }
+
+ /*
+ *
+ *          O nas
+ *
+ */
+
+ .about h3 {
+    color: skyblue;
+}
+
+.about ul {
+    padding-left: 1em;
+}
+
+.about li {
+    display: list-item;
+}
+
+table, td {
+    border: 1px solid #000;
+}
+
+table {
+    width: 26.25em;
+    border-collapse: collapse;
+}
+
+td {
+    padding: .25em;
+}
+
+ /*
+ *      footer
+ */
+ .pre-footer {
+    background: #f2f2f2;
+    border-top: 1px solid lightgray;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.footer-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-part ul {
+    width: 30%;
+}
+
+.footer-part ul:last-child {
+    padding-right: 0;
+}
+
+.footer-part li {
+    display: block;
+}
+
+ .pre-footer ul, footer p {
+    margin: 0;
+ }
+
+ #small-nav a {
+    color: black;
+    text-decoration: none;
+ }
+
+.inspirace {
+    text-align: center;
+}
+
+.inspirace a {
+    text-decoration: underline;
+}
+
+footer {
+    background: #D8DCD5;
+}
+
+#copy {
+    text-align: left;
+    padding: 1em 1em 1em 0;
+}
+
+
+/**
+  * MEDIA QUERIES   
+  */
+
+@media (max-width: 1042px) {
+    .container {
+        padding: .5em;
+    }
+
+    .school-info {
+        padding-right: .5em;
+    }
+
+    .school-pics {
+        justify-content: initial;
+        justify-content: flex-end;
+    }
+
+    .school-pics img:first-child {
+        margin-bottom: .5em;
+    }
+}
+
+@media (max-width: 960px) {
+    header .container {
+        flex-direction: column;
+    }
+
+    .logo,
+    .navigation {
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 860px) {
+    .persons-form-holder {
+        flex-direction: column;
+    }
+
+    .persons {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .udaje {
+        padding: .25em;
+    }
+
+    .spoj {
+        display: block;
+    }
+
+    form {
+        margin: 0 auto;
+    } 
+
+}
+
+@media (max-width: 800px) {
+    .index_menu ul {
+        width: 26.25em;
+    }
+
+    .index_menu li {
+        width: 49%;
+        margin-bottom: .5em;
+    }
+
+    .school-pics {
+        display: none;
+    }
+
+    .school-info {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 633px) {
+    .persons {
+        justify-content: space-around;
+    }
+}

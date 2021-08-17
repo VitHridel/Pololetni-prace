@@ -1,0 +1,82 @@
+
+   history
+    1  git init
+    2  git config --global user.name "Vit Hridel"
+    3  git config --global user.email "vit.hridel@skolakrizik.cz"
+    4  git remote add origin git@gitlab.com:VitHridel/afsdsdf.git
+    5  git remote add origin git@gitlab.com:VitHridel/Pololetni-prace.git
+    6  git add .
+    7  git commit -m "Vytvoreni zakladni struktury a hlavniho menu"
+    8  git push -u origin master
+    9  ssh-keygen -t rsa -b 4096 -C "vit.hridel@skolakrizik.cz" - (musel jsem kvůli novému zařízení)
+   10  git push -u origin master
+   11  git pull
+   12  git push -u origin master
+   13  git delete
+   14  git --help
+   15  git rm
+   16  git branch -a
+   17  git branch -d
+   18  git branch pololetni-prace -d
+   19  git branch -d Pololetni-prace
+   20  git push origin --delete Pololetni-prace
+   21  git push origin --delete 'https://gitlab.com/VitHridel/pololetni-prace'
+   22  git clone git@gitlab.com:VitHridel/pololetni-prace.git
+   23  git clone git@gitlab.com:VitHridel/pololetni-prace.git
+   24  git push -u origin master
+   25  git init
+   26  git config --global user.name "Vit Hridel"
+   27  git config --global user.email "vit.hridel@skolakrizik.cz"
+   28  git remote add origin git@gitlab.com:VitHridel/pololetni-prace.git
+   29  git add .
+   30  git commit -m "Vytvoreni zakladni struktury a headeru"
+   31  git push -u origin master
+   32  git clone
+   33  git clone git clone git@gitlab.com:VitHridel/pololetni-prace.git
+   34  git clone git@gitlab.com:VitHridel/pololetni-prace.git
+   35  git add .
+   36  git commit -m "vytvoreni index_menu"
+   37  git push
+   38  git add .
+   39  git commit -m "dodelani index_menu"
+   40  git push
+   41  git add .
+   42  git commit -m "dodelani obsahu podstranky "skola""
+   43  git push
+   44  git add .
+   45  git commit -m "complete footer"
+   46  git push
+   47  git add .
+   48  git commit -m "obsah podstranky "druzina""
+   49  git push
+   50  git add .
+   51  git commit -m "obsah podstranky krouzky"
+   52  git push
+   53  git add .
+   54  git commit -m "upravovani responzivity"
+   55  git push
+   56  git add .
+   57  git commit -m 'obsah stranky contact.php'
+   58  git push
+   59  git add .
+   60  git commit -m 'obsah stranky documents.php'
+   61  git push
+   62  git add .
+   63  git commit -m 'obsah stranky about.php'
+   64  git push
+   (65  git init
+   66  git config --global user.name "Vit Hridel"
+   67  git config --global user.email "vit.hridel@skolakrizik.cz"
+   68  git remote add origin git@gitlab.com:VitHridel/pololetni-prace.git) - patří k jinému repozitáři
+   69  git add .
+   70  git commit -m 'upraveni responzivity obrazku v souboru podstranky/askola.php'
+   71  git push
+   72  git add .
+   73  git commit -m 'pridani souboru git-history.txt'
+   74  git push
+   75  history
+   76  git add .
+   77  git commit -m 'upraveni kodu aby byl validní'
+   78  git push
+   79  history
+
